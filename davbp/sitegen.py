@@ -1,4 +1,4 @@
-import logger
+import davbp.logger as logger
 import os
 
 
@@ -165,6 +165,8 @@ def _write_other_badges_section(all_repos, label: str, fd) -> None:
             </a>
 """
             )
+        else:
+            fd.write("-")
         fd.write(
             f"""
         </td>
@@ -180,7 +182,8 @@ def _write_other_badges_section(all_repos, label: str, fd) -> None:
             </a>
 """
             )
-
+        else:
+            fd.write("-")
         fd.write(
             f"""
         </td>
