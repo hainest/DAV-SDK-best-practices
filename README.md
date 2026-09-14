@@ -29,7 +29,7 @@ Create a new module in `scripts/`, add it to the list of checks in
 ## Requirements
 
 - `git`
-- `python 3.10` or newer
+- `python 3.11` or newer
 
 See `pyproject.toml` for additional python packages used.
 
